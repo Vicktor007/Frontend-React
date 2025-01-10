@@ -1,0 +1,25 @@
+/* For Webkit browsers (Chrome, Safari) */
+.scrollable-div::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  .scrollable-div::-webkit-scrollbar-track {
+    background: #464141;
+    border-radius: 10px;
+  }
+  
+  .scrollable-div::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  .scrollable-div::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  /* For Firefox */
+  .scrollable-div {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #464141;
+  }
+  
