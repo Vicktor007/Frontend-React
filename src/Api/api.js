@@ -1,7 +1,7 @@
 
 import axios from 'axios';
-const DEPLOYED='https://e-commerce-server-production-0873.up.railway.app'
-const LOCALHOST='http://localhost:5454'
+// const DEPLOYED='https://e-commerce-server-production-0873.up.railway.app'
+const LOCALHOST=import.meta.env.VITE_BACKEND_URL;
 
 export const API_BASE_URL = LOCALHOST
 
