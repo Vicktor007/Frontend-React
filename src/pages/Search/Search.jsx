@@ -32,7 +32,7 @@ import SpinnerBackdrop from "@/components/custome/SpinnerBackdrop";
 
 const SearchCoin = () => {
   const dispatch = useDispatch();
-  const { asset, order,coin } = useSelector((store) => store);
+  const coin  = useSelector((state) => state.coin);
   const [keyword, setKeyword] = useState("keyword");
   const navigate=useNavigate()
 
